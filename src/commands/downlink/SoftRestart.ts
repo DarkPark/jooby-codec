@@ -14,6 +14,8 @@ const COMMAND_TITLE = 'SOFT_RESTART';
  *
  * const command = new SoftRestart();
  *
+ * someting interesting
+ *
  * // output command binary in hex representation
  * console.log(command.toHex());
  * // 19 00
@@ -34,7 +36,7 @@ class SoftRestart extends Command {
 
     // eslint-disable-next-line class-methods-use-this
     toBytes (): Uint8Array {
-        return Command.toBytes(COMMAND_ID);
+        return Command.toBytes(COMMAND_ID + 1);
     }
 }
 
