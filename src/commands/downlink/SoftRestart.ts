@@ -2,7 +2,7 @@ import Command from '../../Command.js';
 
 
 const COMMAND_ID = 0x19;
-const COMMAND_TITLE = 'SOFT_RESTART';
+const COMMAND_TITLE = `SOFT_RESTART`;
 
 
 /**
